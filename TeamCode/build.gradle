@@ -13,3 +13,9 @@
 
 // Include common definitions from above.
 apply from: '../build.common.gradle'
+dependencies {
+    implementation 'com.arcrobotics:ftclib:1.0.0' // Replace 1.0.0 with the latest release
+}
+dependencies {
+    implementation'org.openftc:opencv-repackaged:4.1.0-c'
+}
